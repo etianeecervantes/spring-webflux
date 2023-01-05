@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.webflux.app.models.documents;
+package com.ejemplo.springboot.webflux.app.models.documents;
 
 import java.util.Date;
 

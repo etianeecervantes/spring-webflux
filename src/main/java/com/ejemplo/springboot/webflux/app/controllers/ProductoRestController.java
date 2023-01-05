@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.webflux.app.controllers;
+package com.ejemplo.springboot.webflux.app.controllers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bolsadeideas.springboot.webflux.app.models.dao.ProductoDao;
-import com.bolsadeideas.springboot.webflux.app.models.documents.Producto;
+import com.ejemplo.springboot.webflux.app.models.dao.ProductoDao;
+import com.ejemplo.springboot.webflux.app.models.documents.Producto;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

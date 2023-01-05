@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.webflux.app;
+package com.ejemplo.springboot.webflux.app;
 
 import java.util.Date;
 
@@ -10,8 +10,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.core.ReactiveMongoTemplate;
 
-import com.bolsadeideas.springboot.webflux.app.models.dao.ProductoDao;
-import com.bolsadeideas.springboot.webflux.app.models.documents.Producto;
+import com.ejemplo.springboot.webflux.app.models.dao.ProductoDao;
+import com.ejemplo.springboot.webflux.app.models.documents.Producto;
 
 import reactor.core.publisher.Flux;
 

@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.webflux.app.controllers;
+package com.ejemplo.springboot.webflux.app.controllers;
 
 import java.time.Duration;
 
@@ -10,8 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.thymeleaf.spring5.context.webflux.ReactiveDataDriverContextVariable;
 
-import com.bolsadeideas.springboot.webflux.app.models.dao.ProductoDao;
-import com.bolsadeideas.springboot.webflux.app.models.documents.Producto;
+import com.ejemplo.springboot.webflux.app.models.dao.ProductoDao;
+import com.ejemplo.springboot.webflux.app.models.documents.Producto;
 
 import reactor.core.publisher.Flux;
 
